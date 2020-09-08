@@ -1,0 +1,32 @@
+{
+  "name": "mongadishu",
+  "version": "1.0.0",
+  "description": "Helper package to create mongoose schema from ES6 class",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajat19/mongadishu.git"
+  },
+  "author": "Rajat Srivastava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajat19/mongadishu/issues"
+  },
+  "homepage": "https://github.com/rajat19/mongadishu#readme",
+  "dependencies": {
+    "mongoose": "^5.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "jshint": "^2.9.5",
+    "pre-commit": "^1.2.2"
+  }
+}
